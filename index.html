@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Advanced Image Gallery</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advanced Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>My Image Gallery</h1>
-    <div class="a">
-      <button class="b active" data-x="all">All</button>
-      <button class="b" data-x="nature">Nature</button>
-      <button class="b" data-x="animals">Animals</button>
-      <button class="b" data-x="travel">Travel</button>
-      <button class="b" data-x="city">City</button>
-    </div>
-  </header>
+    <header>
+        <h1>My Image Gallery</h1>
+        <div class="a">
+            <button class="b active" data-x="all">All</button>
+            <button class="b" data-x="nature">Nature</button>
+            <button class="b" data-x="animals">Animals</button>
+            <button class="b" data-x="travel">Travel</button>
+            <button class="b" data-x="city">City</button>
+        </div>
+    </header>
 
-  <main class="c">
-    <div class="d" data-x="nature">
-      <img src="nature1.jpg" alt="Nature 1" />
-    </div>
-    <div class="d" data-x="animals">
-      <img src="animal1.jpg" alt="Animal 1" />
-    </div>
-    <div class="d" data-x="city">
-      <img src="city1.jpg" alt="City 1" />
-    </div>
-    <div class="d" data-x="city">
-      <img src="city2.jpg" alt="City 2" />
-    </div>
-    <div class="d" data-x="travel">
-      <img src="travel1.jpg" alt="Travel 1" />
-    </div>
-    <div class="d" data-x="nature">
-      <img src="nature2.jpg" alt="Nature 2" />
-    </div>
-    <div class="d" data-x="animals">
-      <img src="animal2.jpg" alt="Animal 2" />
-    </div>
-    <div class="d" data-x="travel">
-      <img src="travel2.jpg" alt="Travel 2" />
-    </div>
-  </main>
+    <main class="c">
+        <div class="d" data-x="nature">
+            <img src="images/nature1.jpg" alt="Nature 1" />
+        </div>
+        <div class="d" data-x="animals">
+            <img src="images/animal1.jpg" alt="Animal 1" />
+        </div>
+        <div class="d" data-x="city">
+            <img src="images/city1.jpg" alt="city 1" />
+        </div>
+        <div class="d" data-x="city">
+            <img src="images/city2.jpg" alt="city 2" />
+        </div>
+        <div class="d" data-x="travel">
+            <img src="images/travel1.jpg" alt="Travel 1" />
+        </div>
+        <div class="d" data-x="nature">
+            <img src="images/nature2.jpg" alt="Nature 2" />
+        </div>
+        <div class="d" data-x="animals">
+            <img src="images/animal2.jpg" alt="Animal 2" />
+        </div>
+        <div class="d" data-x="travel">
+            <img src="images/travel2.jpg" alt="Travel 2" />
+        </div>
+    </main>
 
-  <!-- Lightbox / Modal Section -->
-  <div class="e">
-    <span class="f">&#10094;</span> <!-- Prev -->
-    <img class="g" src="" alt="Large view" />
-    <span class="i">&#10095;</span> <!-- Next -->
-    <span class="j">&times;</span> <!-- Close -->
-  </div>
+    <div class="e">
+        <span class="f">&times;</span>
+        <img class="g" src="" alt="" />
+        <div class="h">
+            <span class="i">&#10094;</span>
+            <span class="j">&#10095;</span>
+        </div>
+    </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 
